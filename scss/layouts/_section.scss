@@ -1,0 +1,20 @@
+.section {
+    padding: 20px 0;
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 24px;
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 1.2;
+            font-family: "Play", sans-serif;
+        }
+
+        &--centered {
+            text-align: center;
+        }
+    }
+}

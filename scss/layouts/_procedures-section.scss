@@ -1,0 +1,27 @@
+.procedures-section {
+
+    &__slider {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    &__container {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // gap: 32px;
+        overflow: hidden;
+    }
+
+    // &__button {
+
+    // }
+
+    &__list {
+        // display: flex;
+        // justify-content: center;
+        // gap: 16px;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,99 @@
+.about-us-section {
+    padding: 48px 0 52px 0;
+
+    @media screen and (min-width: $bp-tablet) {
+        padding-bottom: 88px;
+    }
+
+
+    &__container {
+        display: flex;
+        gap: 28px;
+        position: relative;
+
+        &::before {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            top: 18rem;
+            right: 0;
+            width: 16px;
+            height: 16px;
+            background-image: url('../../images/small-star-grey.svg');
+            background-repeat: no-repeat;
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+
+        @media screen and (min-width: $bp-tablet) {
+            gap: 40px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 0;
+    }
+
+    &__text {
+        font-size: 18px;
+
+        @media screen and (min-width: $bp-tablet) {
+            max-width: 650px;
+            font-size: 22px;
+        }
+    }
+
+    &__img-container {
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            flex-grow: 1;
+            position: relative;
+        }
+
+
+        &::before,
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            background-repeat: no-repeat;
+        }
+
+        &::before {
+            z-index: -1;
+            bottom: 17rem;
+            left: 11rem;
+            width: 64px;
+            height: 64px;
+            background-image: url('../../images/big-star-black.svg');
+        }
+
+        &::after {
+            z-index: -1;
+            top: 3rem;
+            right: 2rem;
+            width: 40px;
+            height: 40px;
+            background-image: url('../../images/big-star-blue.svg');
+        }
+    }
+
+    &__image {
+        position: relative;
+        max-width: 340px;
+        height: 328px;
+        border-radius: 50%;
+
+        &:last-child {
+            align-self: end;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    &__button {
+        width: 8px;
+        height: 8px;
+        background-color: var(--color-secondary-grey);
+        border-radius: 50%;
+
+        @media screen and (min-width: $bp-tablet) {
+            width: 11px;
+            height: 11px;
+        }
+
+        &--active {
+            background-color: var(--color-primary-blue);
+        }
+    }
+}

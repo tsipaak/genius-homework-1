@@ -1,0 +1,49 @@
+/* Advantages Section */
+.advantages-section {
+    position: relative;
+    padding-top: 52px;
+
+    @media screen and (min-width: $bp-tablet) {
+        padding-bottom: 88px;
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &::before {
+        z-index: -1;
+        top: -10rem;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: 1785px;
+        background-image: url('../../images/advantages-vector.svg');
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+
+        @media screen and (min-width: $bp-tablet) {
+            gap: 56px;
+        }
+    }
+
+    &__item {
+        @media screen and (min-width: $bp-tablet) {
+            flex-basis: calc((100% - 112px) / 3);
+        }
+    }
+
+    &__icon {
+        fill: var(--color-primary-blue);
+    }
+}

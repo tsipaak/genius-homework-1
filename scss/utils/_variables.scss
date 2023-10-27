@@ -1,0 +1,18 @@
+:root {
+    /* Primary Colors */
+    --color-primary-white: #FFFFFF;
+    --color-primary-blue: #2B7FFF;
+    --color-primary-darkblue: #011C44;
+    /* Secondary Colors */
+    --color-secondary-darkgrey: #4A4A4A;
+    --color-secondary-grey: #747272;
+    --color-secondary-darkblue: #011F4A;
+    --color-secondary-yellow: #FFD02B;
+    
+    // Hover Color
+    --color-btn-hover: #DFDFDF;
+}
+
+$bp-mobile: 480px;
+$bp-tablet: 768px;
+$bp-desktop: 1280px;

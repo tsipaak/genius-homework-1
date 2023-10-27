@@ -1,0 +1,127 @@
+.footer {
+    padding: 56px 0;
+    background-color: var(--color-primary-darkblue);
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+            gap: 0;
+            text-align: left;
+        }
+    }
+
+    &__nav {
+        gap: 42px;
+
+        @media screen and (min-width: $bp-tablet) {
+            gap: 0;
+        }
+    }
+
+    &__nav,
+    &__address {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 50%;
+
+        @media screen and (min-width: $bp-tablet) {
+            flex-direction: row;
+        }
+    }
+
+    &__logo,
+    &__menu {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    &__logo {
+        margin: 0 auto;
+    }
+
+    &__menu {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__link {
+        font-size: 14px;
+        line-height: 1.17;
+        text-decoration: none;
+        color: var(--color-primary-white);
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 16px;
+        }
+    }
+
+    // Footer Address
+    &__address-contact,
+    &__address-info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        flex-grow: 1;
+    }
+
+    &__address-info {
+        order: 1;
+        @media screen and (min-width: $bp-tablet) {
+            order: 2;
+        }
+    }
+
+    &__address-contact {
+        order: 2;
+        @media screen and (min-width: $bp-tablet) {
+            order: 1;
+        }
+    }
+
+    &__address-list {
+        display: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+    }
+
+    &-link {
+        font-size: 14px;
+        line-height: 1.17;
+        color: var(--color-primary-white);
+        text-decoration: none;
+
+        @media screen and (min-width: $bp-tablet) {
+            font-size: 16px;
+            line-height: 1.2;
+        }
+
+    }
+
+    &__address-copyright {
+        font-size: 13px;
+        color: var(--color-secondary-grey);
+    }
+
+    &__socials {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+
+        @media screen and (min-width: $bp-tablet) {
+            justify-content: left;
+        }
+
+        &-icon {
+            fill: var(--color-primary-white);
+        }
+    }
+}
