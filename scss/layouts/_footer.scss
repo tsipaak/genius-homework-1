@@ -56,16 +56,22 @@
     }
 
     &__link {
+        transition: color .3s;
+        cursor: pointer;
         font-size: 14px;
         line-height: 1.17;
         color: var(--color-primary-white);
         text-decoration: none;
-        cursor: pointer;
 
         @media screen and (min-width: $bp-tablet) {
             font-size: 16px;
         }
+
+        &:hover {
+            color: var(--color-primary-blue);
+        }
     }
+
 
     // Footer Address
     &__address-contact,
@@ -102,18 +108,17 @@
         }
     }
 
-    &-link {
-        font-size: 14px;
-        line-height: 1.17;
-        color: var(--color-primary-white);
-        text-decoration: none;
+    // &-link {
+    //     font-size: 14px;
+    //     line-height: 1.17;
+    //     color: var(--color-primary-white);
+    //     text-decoration: none;
 
-        @media screen and (min-width: $bp-tablet) {
-            font-size: 16px;
-            line-height: 1.2;
-        }
-
-    }
+    //     @media screen and (min-width: $bp-tablet) {
+    //         font-size: 16px;
+    //         line-height: 1.2;
+    //     }
+    // }
 
     &__address-copyright {
         font-size: 13px;
@@ -131,6 +136,11 @@
 
         &-icon {
             fill: var(--color-primary-white);
+            transition: fill .3s;
+
+            &:hover {
+                fill: var(--color-primary-blue);
+            }
         }
     }
 }

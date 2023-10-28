@@ -1,5 +1,6 @@
 .carousel-button {
     display: none;
+    transition: fill .3s, background-color .3s, border-color .3s;
 
     @media screen and (min-width: $bp-tablet) {
         display: flex;
