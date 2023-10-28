@@ -1,11 +1,11 @@
 .footer {
     padding: 56px 0;
     background-color: var(--color-primary-darkblue);
-    background-image: url('../../images/footer-desktop-background.png');
+    background-image: url('../images/footer-desktop-background.png');
     background-repeat: no-repeat;
 
     @media screen and (max-width: $bp-tablet) {
-        background-image: url('../../images/footer-mobile-background.png');
+        background-image: url('../images/footer-mobile-background.png');
     }
 
     &__container {
