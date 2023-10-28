@@ -8,19 +8,17 @@
     }
 
     &::before {
+        // bottom: 0;
         content: '';
         position: absolute;
-        // bottom: 0;
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     &::before {
         z-index: -1;
-
         top: -3rem;
         left: -14rem;
-
         right: 0;
         width: auto;
         height: 973px;
