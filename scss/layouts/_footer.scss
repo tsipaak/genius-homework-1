@@ -60,6 +60,7 @@
         line-height: 1.17;
         color: var(--color-primary-white);
         text-decoration: none;
+        cursor: pointer;
 
         @media screen and (min-width: $bp-tablet) {
             font-size: 16px;

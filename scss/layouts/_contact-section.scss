@@ -24,12 +24,17 @@
         height: 232px;
         margin: 0 -20px;
         border: 0;
+        border-radius: 32px;
 
         @media screen and (min-width: $bp-tablet) {
-            width: 605px;
-            height: 481px;
+            width: 302px;
+            height: 482px;
             margin: 0;
-            border-radius: 32px;
+        }
+
+        @media screen and (min-width: $bp-desktop) {
+            width: 604px;
+            height: 482px;
         }
     }
 

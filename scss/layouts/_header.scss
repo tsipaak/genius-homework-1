@@ -37,6 +37,7 @@
         transition: color .3s;
         color: var(--color-primary-darkblue);
         text-decoration: none;
+        cursor: pointer;
 
         &:hover {
             // font-weight: 700;
@@ -54,6 +55,11 @@
 
             &-icon {
                 fill: var(--color-primary-darkblue);
+                transition: fill .3s;
+
+                &:hover {
+                    fill: var(--color-primary-blue);
+                }
             }
         }
     }
