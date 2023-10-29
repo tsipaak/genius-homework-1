@@ -14,11 +14,15 @@
 
     &__container {
         display: flex;
+        gap: 20px;
     }
 
     &__nav {
         display: flex;
+        align-items: center;
+        gap: 20px;
         flex-grow: 1;
+        text-align: center;
     }
 
     &__menu {
@@ -35,9 +39,9 @@
 
     &__link {
         transition: color .3s;
+        cursor: pointer;
         color: var(--color-primary-darkblue);
         text-decoration: none;
-        cursor: pointer;
 
         &:hover {
             // font-weight: 700;
