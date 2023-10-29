@@ -22,3 +22,4 @@ The site is still under development.
 
 <!-- Images -->
 ### [Live Website](https://ytsipak.github.io/beauty_zone/)
+![beauty landing](https://github.com/ytsipak/beauty_zone/assets/122310792/1fe59f94-8ced-4cf1-926a-1e1fb108e42a)
