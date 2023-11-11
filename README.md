@@ -7,13 +7,16 @@ This project was created as a homework assignment in my course. <br>
 I did this project on my own. <br>
 The site is still under development.
 
-<h3>Functionality</h3>
-
+<h3>🛠️ Functionality</h3>
 - 📱 The website is adapted using Mobile-First technology.
-- 🖼️ All images are optimized for Retina displays.
+<!-- - 🖼️ All images are optimized for Retina displays. -->
 - 🧩 BEM methodology is employed for class naming.
 - ✅ Form validation is implemented in HTML using regular expressions.
 - 🌟 All icons are optimized through SVGOMG and added to an SVG sprite.
+
+<h3>📝 To Do</h3>
+- 🍔 Implement a burger menu for optimal navigation on mobile screens. <br>
+- 🖼️ Optimize images for Retina displays to enhance visual clarity. <br>
 
 <!-- Technologies -->
 ### Built With
